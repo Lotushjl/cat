@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout 
+        xmlns:android="http://schemas.android.com/apk/res/android"
+    	android:orientation="vertical"  
+        android:layout_width="fill_parent"
+    	android:layout_height="fill_parent"
+    	android:background="@color/background"> 
+    	
+    	 <RelativeLayout          
+       		 android:orientation="horizontal"    
+        	 android:layout_width="fill_parent"     
+        	 android:layout_height="50dp"
+        	 android:background="@color/titlebackground"
+        	 > 
+        		<TextView   
+            		android:layout_width="wrap_content"  
+            		android:layout_height="wrap_content"  
+           			 android:layout_centerInParent="true"  
+            		 android:text="Hello 中大"
+           			 android:textSize="26sp"
+           			 android:textColor="@color/titletext"            		
+            	/>
+		</RelativeLayout>
+     <ScrollView
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:scrollbars="none"		
+	 >
+      <LinearLayout 
+    	android:orientation="vertical"  
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:background="@color/background"> 
+    	
+     		<TextView
+     		android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"  
+			android:layout_marginTop="20dp"
+            android:text="Hello 中大"
+           	android:textSize="10dp"
+           	android:textColor="@color/background"   
+     		    />
+		
+	<com.andyidea.cat.myGallery
+        android:id="@+id/mygallery"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"        
+         />
+	     
+ </LinearLayout>  	
+</ScrollView> 
+        		
+ </LinearLayout>      

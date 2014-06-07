@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+  <color name = "welcomebackground">#bbee88</color>
+  <color name = "background">#ffffff</color>
+  <color name = "titlebackground">#bbee88</color>
+  <color name = "titletext">#336633</color>
+  <color name = "textlgray">#999999</color>
+  <color name = "textdgray">#333333</color>
+
+  <color name = "ebackground">#dfffde</color>
+  
+  <color name = "tabp">#99cc66</color>
+  <color name = "tabs">#dfffde</color>
+  <color name = "tabbackground">#bbee88</color>
+  
+  <color name = "classifybut">#ffffff</color>
+  <color name = "searchbackground">#dfffde</color>
+  <color name = "spit">#99cc66</color>
+  
+  <color name = "mline">#99cc66</color>
+  <color name = "userbackground">#dfffde</color>
+  
+  <color name = "actiononlist_p">#ccffff</color>
+  <color name = "actiononlist_s">#99cc66</color>
+  <color name = "actiononlist_u">#e3fff2</color>
+  
+  <color name = "actiononsearch_p">#ccffff</color>
+  <color name = "actiononsearch_s">#99cc66</color>
+  <color name = "actiononsearch_u">#ffffff</color>
+</resources>

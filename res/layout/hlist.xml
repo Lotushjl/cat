@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+    	android:orientation="vertical"  
+        android:layout_width="fill_parent"
+    	android:layout_height="fill_parent"
+    	android:background="@color/background"
+    >
+    
+    	 <RelativeLayout          
+       		 android:orientation="horizontal"    
+        	 android:layout_width="fill_parent"     
+        	 android:layout_height="50dp"
+        	 android:background="@color/titlebackground"> 
+        		<TextView   
+            		android:layout_width="wrap_content"  
+            		android:layout_height="wrap_content"  
+           			 android:layout_centerInParent="true"  
+            		 android:text="列 表"
+           			 android:textSize="26sp"
+           			 android:textColor="@color/titletext"            		
+            	/>
+		</RelativeLayout>
+    
+
+
+<ScrollView
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:scrollbars="none"
+android:background="@color/background">
+<LinearLayout 
+        android:orientation="vertical"  
+        android:layout_width="fill_parent"
+    	android:layout_height="fill_parent"
+    	android:background="@color/background"> 
+    	
+		<RelativeLayout          
+       		   
+        	 android:layout_width="fill_parent"     
+        	 android:layout_height="150dp"
+        	 android:layout_marginLeft="10dp"
+        	 android:layout_marginTop="30dp"
+        	 android:layout_marginRight="10dp"
+        	 > 
+        	 
+		    	<Button
+		    	    android:id="@+id/actiononlist"
+		    	    android:layout_width="fill_parent"     
+        	 		android:layout_height="fill_parent"
+		    	    android:background="@drawable/actiononlist"
+		    	    />
+		    	
+		    	<ImageView 
+		    		android:id="@+id/actonlistimg"
+		    		android:src="@drawable/img11111"
+		    		android:scaleType="fitStart"
+		    		android:layout_width="fill_parent"
+		    		android:layout_height="fill_parent"
+        	 		android:layout_marginLeft="10dp"
+        	 		android:layout_marginTop="5dp"
+        	 		android:layout_marginRight="5dp"
+        	 		android:layout_marginBottom="5dp"
+		    	    />
+		    	<LinearLayout
+		    	    android:orientation="vertical"
+		    	    android:layout_width="175dp"  
+            		android:layout_height="fill_parent" 
+            		android:layout_alignParentRight="true"
+		    	    >
+		    	    
+		    	    <TextView   
+            		android:layout_width="fill_parent"  
+            		android:layout_height="wrap_content"            			
+            		android:text="@string/name11111"
+           			android:textSize="26sp"
+           			android:textColor="@color/titletext"            		
+            		/>
+		    	    
+		    	   <TextView   
+            		android:layout_width="fill_parent"  
+            		android:layout_height="wrap_content" 
+            		android:text="@string/when11111"
+           			android:textSize="16sp"
+           			android:textColor="@color/textlgray"  
+           			       		
+            		/>
+		    	    <TextView   
+            		android:layout_width="fill_parent"  
+            		android:layout_height="wrap_content" 
+            		android:text="@string/where11111"
+           			android:textSize="16sp"
+           			android:textColor="@color/textlgray"  
+           			         		
+            		/>
+		    	    <TextView   
+            		android:layout_width="fill_parent"  
+            		android:layout_height="wrap_content" 
+            		android:text="@string/intro11111"
+            		android:layout_marginTop="2dp"
+           			android:textSize="16sp"
+           			android:textColor="@color/textlgray"  
+           			         		
+            		/>
+		    	</LinearLayout>
+
+		</RelativeLayout>	
+
+		
+ </LinearLayout>     
+ 
+</ScrollView>   
+</LinearLayout>

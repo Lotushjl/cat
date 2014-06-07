@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>   
+
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"    
+    android:background="@color/background"
+    >
+    
+     <RelativeLayout
+        android:orientation="horizontal"    
+        android:layout_width="fill_parent"     
+        android:layout_height="50dp"
+        android:background="@color/titlebackground">  
+        
+        <TextView 
+            android:id="@+id/classifytest" 
+            android:layout_width="58dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:text="@string/classifyspi"
+            android:textSize="20sp"
+            android:textColor="@color/textlgray"
+             />  
+        <RelativeLayout
+            android:background="@drawable/searchback"
+            android:layout_width="270dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+             >           
+      
+        <EditText
+            android:id="@+id/searching"
+            android:layout_centerInParent="true"
+            android:scrollHorizontally="true" 
+            android:layout_alignParentRight="true"                      
+            android:layout_width="195dp"
+            android:layout_height="fill_parent"
+            android:hint="请输入查询的关键字"  
+            android:background="@color/searchbackground"          
+            />
+            
+        </RelativeLayout>
+      
+
+        
+        <Spinner 
+            android:id="@+id/classifyspinner" 
+			android:background="@drawable/classifyspi"
+            android:layout_width="58dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+             />   
+               
+          <TextView 
+            android:id="@+id/classifytext" 
+			android:background="@drawable/classifytext"
+            android:layout_width="58dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:text="@string/classifyspi"
+            android:textSize="20sp"
+            android:textColor="@color/textlgray"
+            android:gravity="center"   
+             />      
+        
+                  
+    <ImageButton  
+            android:id="@+id/imageButtonnext"  
+        	android:scaleType="centerInside" 
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:layout_centerInParent="true"  
+            android:layout_alignParentRight="true"
+            android:src="@drawable/search"
+            android:background="@color/titlebackground"  
+            />                      
+	</RelativeLayout>  
+		
+	 
+	 
+	 <RelativeLayout 
+               
+            android:layout_height="wrap_content" 
+            android:layout_width="fill_parent"
+            android:layout_marginTop="5dp">
+
+	     
+	     <Spinner 
+               android:id="@+id/sortspinner"
+               android:layout_width="150dp" 
+               android:layout_height="40dp"
+               android:layout_marginLeft="5dip"
+               android:background="@drawable/spi"
+               android:gravity="center_vertical"       
+               />
+	      <TextView 
+               android:id="@+id/sorttext"
+               android:text = "@string/sortkey"
+               android:textSize="23sp"
+               android:textColor="@color/textlgray"
+               android:padding="5dp"
+               android:layout_width="150dp" 
+               android:layout_height="40dp"
+               android:layout_marginLeft="5dip"
+               android:background="@drawable/spitext"  
+               android:gravity="center"                
+               />
+       
+	     
+	     <Spinner 
+               android:id="@+id/screenspinner"
+               android:padding="5dp"
+               android:layout_width="150dp" 
+               android:layout_height="40dp"
+               android:layout_marginRight="5dp"
+               android:layout_alignParentTop="true" 
+               android:layout_alignParentRight="true"
+               android:background="@drawable/spi"               
+               />
+	     	<TextView
+               android:id="@+id/screentext"
+               android:text = "@string/screenkey"
+               android:textSize="23sp"
+               android:textColor="@color/textlgray"
+               android:padding="5dp"
+               android:layout_width="150dp" 
+               android:layout_height="40dp"
+               android:layout_marginRight="5dp"
+               android:layout_alignParentTop="true" 
+               android:layout_alignParentRight="true"
+               android:background="@drawable/spitext" 
+               android:gravity="center"                  
+               />
+           
+        
+     </RelativeLayout>
+     <ScrollView
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:scrollbars="none"
+	 >
+	 <LinearLayout 
+	   android:orientation="vertical"  
+        android:layout_width="fill_parent"
+    	android:layout_height="fill_parent"
+    	android:background="@color/background"
+		>
+     
+     <RelativeLayout          
+       		 android:orientation="horizontal"    
+        	 android:layout_width="fill_parent"     
+        	 android:layout_height="65dp"
+        	 android:layout_marginLeft="5dp"
+        	 android:layout_marginTop="5dp"
+        	 android:layout_marginRight="5dp"
+        	 > 
+        	 
+		    	<Button
+		    	    android:id="@+id/actiononlist"
+		    	    android:layout_width="fill_parent"     
+        	 		android:layout_height="fill_parent"
+		    	    android:background="@drawable/actiononsearch"
+		    	    />
+		    	
+        		<TextView   
+            		android:layout_width="wrap_content"  
+            		android:layout_height="wrap_content"            			    
+           			android:padding="5dp"
+            		android:text="@string/name11111"
+           			android:textSize="26sp"
+           			android:textColor="@color/titletext"            		
+            	/>
+        		<TextView   
+            		android:layout_width="wrap_content"  
+            		android:layout_height="wrap_content"  
+           			android:layout_alignParentBottom="true"   
+           			android:padding="5dp"
+            		android:text="@string/data11111"
+           			android:textSize="20sp"
+           			android:textColor="@color/titletext"            		
+            	/>
+		</RelativeLayout>
+		
+          
+     	
+</LinearLayout>
+</ScrollView> 
+    
+</LinearLayout>
+   

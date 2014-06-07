@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+    	android:orientation="vertical"  
+        android:layout_width="fill_parent"
+    	android:layout_height="fill_parent"
+    	android:background="@color/background"
+    >
+    
+    	 <RelativeLayout          
+       		 android:orientation="horizontal"    
+        	 android:layout_width="fill_parent"     
+        	 android:layout_height="50dp"
+        	 android:background="@color/titlebackground"> 
+        		<TextView   
+            		android:layout_width="wrap_content"  
+            		android:layout_height="wrap_content"  
+           			 android:layout_centerInParent="true"  
+            		 android:text="@string/name11111"
+           			 android:textSize="26sp"
+           			 android:textColor="@color/titletext"            		
+            	/>
+		</RelativeLayout>
+    
+
+
+<ScrollView
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:scrollbars="none"
+android:background="@color/background">
+		<LinearLayout 
+        android:orientation="vertical"  
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:background="@color/background"> 
+    	<RelativeLayout         
+       		 android:layout_width="fill_parent"     
+        	 android:layout_height="310dp"
+        	 android:layout_marginLeft="-3dp"
+    	     android:layout_marginTop="-5dp"
+    	     android:layout_marginRight="-3dp"   
+        	 android:background="@drawable/actionline"> 
+    	
+    			<ImageButton
+					android:id="@+id/actonimgbut"
+		    		android:src="@drawable/img11111"
+		    		android:scaleType="fitStart"
+		    		android:layout_width="195dp"
+		    		android:layout_height="wrap_content"
+        	 		android:layout_marginLeft="10dp"
+        	 		android:layout_marginTop="20dp"
+        	 		android:layout_marginRight="10dp"
+        	 		android:layout_marginBottom="10dp"
+        	 		android:background="@color/background" 
+       		 		/>    	
+       		 		<LinearLayout 
+        			android:orientation="vertical"  
+       				android:layout_width="wrap_content"
+    				android:layout_height="wrap_content"
+    				android:layout_marginTop="35dp"
+    				android:layout_toRightOf="@id/actonimgbut"
+    				android:background="@color/background"
+    				> 
+    				    	      <Button
+    	      						android:id="@+id/good"
+    	      						android:text="@string/good11111"
+    	      						android:drawableLeft="@drawable/heart"
+    	      						android:drawablePadding="3dp"
+    	      						android:padding="5dp"
+    	     						android:gravity="center_vertical|left"
+    	     						android:textSize="15sp"
+    	      						android:textColor="@color/textlgray"
+    	      						android:layout_width="fill_parent"
+    	     						android:layout_height="wrap_content"
+    	     						android:layout_marginBottom="30dp"
+    	      						android:background="@color/background" 	      
+    	     						/>
+    				    	      
+    				    	        <Button
+    	      						android:id="@+id/store"
+    	      						android:text="@string/store11111"
+    	      						android:drawableLeft="@drawable/star"
+    	      						android:drawablePadding="3dp"
+    	      						android:padding="5dp"
+    	     						android:gravity="center_vertical|left"
+    	     						android:textSize="15sp"
+    	      						android:textColor="@color/textlgray"
+    	      						android:layout_width="fill_parent"
+    	     						android:layout_height="wrap_content"
+    	     						android:layout_marginBottom="30dp"
+    	      						android:background="@color/background" 	      
+    	     						/>
+    				    	        
+    				    	        <Button
+    	      						android:id="@+id/comc"
+    	      						android:text="@string/comc11111"
+    	      						android:drawableLeft="@drawable/mail"
+    	      						android:drawablePadding="3dp"
+    	      						android:padding="5dp"
+    	     						android:gravity="center_vertical|left"
+    	     						android:textSize="15sp"
+    	      						android:textColor="@color/textlgray"
+    	      						android:layout_width="fill_parent"
+    	     						android:layout_height="wrap_content"
+    	     						android:layout_marginBottom="30dp"
+    	      						android:background="@color/background" 	      
+    	     						/>
+    				    	        
+    				    	        <Button
+    	      						android:id="@+id/weiboc"
+    	      						android:text="@string/weiboc11111"
+    	      						android:drawableLeft="@drawable/weibo"
+    	      						android:drawablePadding="3dp"
+    	      						android:padding="5dp"
+    	     						android:gravity="center_vertical|left"
+    	     						android:textSize="15sp"
+    	      						android:textColor="@color/textlgray"
+    	      						android:layout_width="fill_parent"
+    	     						android:layout_height="wrap_content"
+    	     						android:layout_marginBottom="15dp"
+    	      						android:background="@color/background" 	      
+    	     						/>
+    				
+    				</LinearLayout>  
+       	 </RelativeLayout>
+       	 
+    	<LinearLayout         
+    	    android:orientation="vertical"
+       		 android:layout_width="fill_parent"     
+        	 android:layout_height="wrap_content"
+        	 android:layout_marginLeft="-3dp"
+    	     android:layout_marginTop="-5dp"
+    	     android:layout_marginRight="-3dp"
+    	     android:padding="10dp"   
+        	 android:background="@drawable/actionline2"> 
+        		<TextView   
+            		android:layout_width="fill_parent"  
+            		android:layout_height="wrap_content" 
+            		android:text="@string/when11111"
+           			android:textSize="22sp"
+           			android:textColor="@color/textlgray"  
+           			       		
+            		/>
+		    	    <TextView   
+            		android:layout_width="fill_parent"  
+            		android:layout_height="wrap_content" 
+            		android:text="@string/where11111"
+           			android:textSize="22sp"
+           			android:textColor="@color/textlgray"  
+           			         		
+            		/>
+       	</LinearLayout>
+
+         <TextView   
+        	android:layout_width="fill_parent"  
+        	android:layout_height="wrap_content" 
+            android:text="@string/intro11111"
+           	android:textSize="22sp"
+           	android:textColor="@color/titletext"  
+           	android:layout_marginLeft="-3dp"
+    	    android:layout_marginTop="-5dp"
+    	    android:layout_marginRight="-3dp"
+    	    android:padding="10dp"   
+        	android:background="@drawable/actionline"
+            		/>
+         
+          <TextView   
+        	android:layout_width="fill_parent"  
+        	android:layout_height="wrap_content" 
+            android:text="@string/content11111"
+           	android:textSize="22sp"
+           	android:textColor="@color/textlgray"  
+           	android:layout_marginLeft="-3dp"
+    	    android:layout_marginTop="-5dp"
+    	    android:layout_marginRight="-3dp"
+    	    android:padding="10dp"   
+        	android:background="@drawable/actionline2"
+            		/>
+          
+            <LinearLayout         
+    	     android:orientation="vertical"
+       		 android:layout_width="fill_parent"     
+        	 android:layout_height="wrap_content"
+        	 android:layout_marginLeft="-3dp"
+    	     android:layout_marginTop="-5dp"
+    	     android:layout_marginRight="-3dp"
+    	     android:padding="10dp"   
+        	 android:background="@drawable/actionline"> 
+        		<TextView   
+            		android:layout_width="fill_parent"  
+            		android:layout_height="wrap_content"
+            		android:gravity="center"
+            		android:text="展开评论"
+           			android:textSize="22sp"
+           			android:textColor="@color/titletext" 
+
+            		/>
+
+       	</LinearLayout>	
+          
+    	
+	
+ 		</LinearLayout>     
+ 
+</ScrollView>   
+</LinearLayout>

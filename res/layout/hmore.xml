@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:scrollbars="none"
+android:background="@color/background">
+<LinearLayout 
+       
+    	android:orientation="vertical"  
+        android:layout_width="fill_parent"
+    	android:layout_height="fill_parent"
+    	
+    	android:background="@color/background"> 
+    	
+    	 <RelativeLayout          
+       		 android:orientation="horizontal"    
+        	 android:layout_width="fill_parent"     
+        	 android:layout_height="50dp"
+        	 android:background="@color/titlebackground"> 
+        		<TextView   
+            		android:layout_width="wrap_content"  
+            		android:layout_height="wrap_content"  
+           			 android:layout_centerInParent="true"  
+            		 android:text="更 多"
+           			 android:textSize="26sp"
+           			 android:textColor="@color/titletext"            		
+            	/>
+		</RelativeLayout>	
+
+    	 <Button
+    	      android:id="@+id/setting"
+    	      android:text="设  置 "
+    	      android:drawableLeft="@drawable/setting"
+    	      android:drawablePadding="10dp"
+    	      android:padding="10dp"
+    	      android:gravity="center_vertical|left"
+    	      android:textSize="23sp"
+    	      android:textColor="@color/textdgray"
+    	      android:layout_width="fill_parent"
+    	      android:layout_height="70dp"
+    	      android:background="@drawable/itemlist"
+    	      android:layout_marginLeft="-3dp"
+    	      android:layout_marginTop="-5dp"
+    	      android:layout_marginRight="-3dp"   	      
+    	     />
+    	 
+    	    <Button
+    	      android:id="@+id/suggest"
+    	      android:text="意  见  反  馈"
+    	      android:drawableLeft="@drawable/chat"
+    	      android:drawablePadding="10dp"
+    	      android:padding="10dp"
+    	      android:gravity="center_vertical|left"
+    	      android:textSize="23sp"
+    	      android:textColor="@color/textdgray"
+    	      android:layout_width="fill_parent"
+    	      android:layout_height="70dp"
+    	      android:background="@drawable/itemlist"
+    	      android:layout_marginLeft="-3dp"
+    	      android:layout_marginTop="-5dp"
+    	      android:layout_marginRight="-3dp"   	      
+    	     />
+    	    
+    	      <Button
+    	      android:id="@+id/newver"
+    	      android:text="版 本 更 新"
+    	      android:drawableLeft="@drawable/newve"
+    	      android:drawablePadding="10dp"
+    	      android:padding="10dp"
+    	      android:gravity="center_vertical|left"
+    	      android:textSize="23sp"
+    	      android:textColor="@color/textdgray"
+    	      android:layout_width="fill_parent"
+    	      android:layout_height="70dp"
+    	      android:background="@drawable/itemlist"
+    	      android:layout_marginLeft="-3dp"
+    	      android:layout_marginTop="-5dp"
+    	      android:layout_marginRight="-3dp"   	      
+    	     />
+    	    
+    	     <Button
+    	      android:id="@+id/aboutus"
+    	      android:text="关 于 "
+    	      android:drawableLeft="@drawable/aboutus"
+    	      android:drawablePadding="10dp"
+    	      android:padding="10dp"
+    	      android:gravity="center_vertical|left"
+    	      android:textSize="23sp"
+    	      android:textColor="@color/textdgray"
+    	      android:layout_width="fill_parent"
+    	      android:layout_height="70dp"
+    	      android:background="@drawable/itemlist"
+    	      android:layout_marginLeft="-3dp"
+    	      android:layout_marginTop="-5dp"
+    	      android:layout_marginRight="-3dp"   	      
+    	     />
+    	     
+    	      <Button
+    	      android:id="@+id/out"
+    	      android:text="退 出 程 序"
+    	      android:drawableLeft="@drawable/out"
+    	      android:drawablePadding="10dp"
+    	      android:padding="10dp"
+    	      android:gravity="center_vertical|left"
+    	      android:textSize="23sp"
+    	      android:textColor="@color/textdgray"
+    	      android:layout_width="fill_parent"
+    	      android:layout_height="70dp"
+    	      android:background="@drawable/itemlist"
+    	      android:layout_marginLeft="-3dp"
+    	      android:layout_marginTop="-5dp"
+    	      android:layout_marginRight="-3dp"   	      
+    	     />
+    	    
+ </LinearLayout> 
+  </ScrollView>    

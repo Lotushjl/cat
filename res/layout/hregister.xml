@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout 
+        xmlns:android="http://schemas.android.com/apk/res/android"
+    	android:orientation="vertical"  
+        android:layout_width="fill_parent"
+    	android:layout_height="fill_parent"
+    	android:background="@color/background"
+    	android:gravity="center_horizontal"
+    	> 
+    	
+    	 <RelativeLayout          
+       		 android:orientation="horizontal"    
+        	 android:layout_width="fill_parent"     
+        	 android:layout_height="50dp"
+        	 android:background="@color/titlebackground"> 
+        		<TextView   
+            		android:layout_width="wrap_content"  
+            		android:layout_height="wrap_content"  
+           			 android:layout_centerInParent="true"  
+            		 android:text="注 册"
+           			 android:textSize="26sp"
+           			 android:textColor="@color/titletext"            		
+            	/>
+		</RelativeLayout>
+		
+                    <TableLayout 
+                    android:id="@+id/loginInfo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:stretchColumns="1">
+                    <TableRow>
+                           
+                            <EditText 
+                                    android:id="@+id/username"
+                                    android:scrollHorizontally="true"
+                                    android:layout_marginTop="50dp"                                                                      
+                                    android:layout_width="250dp" 
+                                    android:layout_height="40dp"                                       
+                                    android:background="@drawable/loginexit"
+                                    android:hint="请输入账号名"                                    
+                            />
+                    </TableRow>
+                    
+                    <TableRow>
+                            
+                            
+                            <EditText 
+                                    android:id="@+id/username"
+                                    android:password="true"     
+                                   	android:scrollHorizontally="true"
+                                    android:layout_marginTop="10dp"                                                                      
+                                    android:layout_width="250dp" 
+                                    android:layout_height="40dp"
+                                    android:background="@drawable/loginexit"
+                                    android:hint="请输入密码" 
+                            />
+                            
+                    </TableRow>
+                                        <TableRow>
+                            
+                            
+                            <EditText 
+                                    android:id="@+id/username"
+                                    android:password="true"     
+                                   	android:scrollHorizontally="true"
+                                    android:layout_marginTop="10dp"                                                                      
+                                    android:layout_width="250dp" 
+                                    android:layout_height="40dp"
+                                    android:background="@drawable/loginexit"
+                                    android:hint="请再次输入密码" 
+                            />
+                            
+                    </TableRow>
+                    
+               </TableLayout>  
+
+            <Button 
+               android:id="@+id/registering"
+               android:text = "注  册"
+               android:textSize="23sp"
+               android:textColor="@color/textlgray"
+               android:padding="5dp"
+               android:layout_width="180dp" 
+               android:layout_height="40dp"
+               android:background="#ccffff" 
+               android:layout_marginTop="30dp"
+                        
+               />
+
+                    
+ </LinearLayout>      

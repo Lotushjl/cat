@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:scrollbars="none"
+android:background="@color/background">
+<LinearLayout 
+
+    	android:orientation="vertical"  
+        android:layout_width="fill_parent"
+    	android:layout_height="fill_parent"
+    	> 
+    	
+    	 <RelativeLayout          
+       		 android:orientation="horizontal"    
+        	 android:layout_width="fill_parent"     
+        	 android:layout_height="50dp"
+        	 android:background="@color/titlebackground"> 
+        		<TextView   
+            		android:layout_width="wrap_content"  
+            		android:layout_height="wrap_content"  
+           			 android:layout_centerInParent="true"  
+            		 android:text="用 户"
+           			 android:textSize="26sp"
+           			 android:textColor="@color/titletext"            		
+            	/>
+		</RelativeLayout>
+		
+                    <TableLayout 
+                    android:id="@+id/loginInfo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:stretchColumns="1">
+                    <TableRow>
+                           
+                            <EditText 
+                                    android:id="@+id/username"
+                                    android:scrollHorizontally="true"
+                                    android:layout_marginTop="50dp"                                                                      
+                                    android:layout_width="250dp" 
+                                    android:layout_height="40dp"                                       
+                                    android:background="@drawable/loginexit"
+                                    android:hint="账号/微博账号直接登录"                                    
+                            />
+                    </TableRow>
+                    
+                    <TableRow>
+                            
+                            
+                            <EditText 
+                                    android:id="@+id/username"
+                                    android:password="true"     
+                                   	android:scrollHorizontally="true"
+                                    android:layout_marginTop="10dp"                                                                      
+                                    android:layout_width="250dp" 
+                                    android:layout_height="40dp"
+                                    android:background="@drawable/loginexit"
+                                    android:hint="输入密码" 
+                            />
+                    </TableRow>
+                    
+               </TableLayout>  
+        <RelativeLayout 
+            android:id="@+id/loginSet"    
+            android:layout_height="wrap_content" 
+            android:layout_width="fill_parent"
+            android:layout_marginTop="12dp">
+            
+        <CheckBox                 
+                android:id="@+id/rememberPassword" 
+                android:layout_width="wrap_content" 
+                android:layout_height="wrap_content"
+                android:text="记住密码" 
+                android:textColor="@color/textdgray"
+                android:checked="true"
+                android:layout_marginLeft="40dip"
+                />
+        
+        <CheckBox 
+                android:id="@+id/autoLogin" 
+                android:layout_width="wrap_content" 
+                android:text="自动登录" 
+                android:textColor="@color/textdgray"
+                android:layout_height="wrap_content" 
+                android:layout_marginRight="50dip"
+                android:layout_alignParentTop="true" 
+                android:layout_alignParentRight="true"
+                android:checked="true"
+                />            
+    </RelativeLayout>
+    <RelativeLayout 
+            android:id="@+id/loginchose"    
+            android:layout_height="wrap_content" 
+            android:layout_width="fill_parent"
+            android:layout_marginTop="12dp">
+           <Button 
+               android:id="@+id/logining"
+               android:text = "登 录"
+               android:textSize="23sp"
+               android:textColor="@color/textlgray"
+               android:padding="5dp"
+               android:layout_width="120dp" 
+               android:layout_height="40dp"
+               android:layout_marginLeft="30dip"
+               android:background="@color/ebackground"               
+               />
+            <Button 
+               android:id="@+id/register"
+               android:text = "注册"
+               android:textSize="23sp"
+               android:textColor="@color/textlgray"
+               android:padding="5dp"
+               android:layout_width="120dp" 
+               android:layout_height="40dp"
+               android:layout_marginRight="40dip"
+               android:layout_alignParentTop="true" 
+               android:layout_alignParentRight="true"
+               android:background="@color/ebackground"               
+               />
+           
+        
+     </RelativeLayout>
+                    
+ </LinearLayout>      
+ </ScrollView>
+ 

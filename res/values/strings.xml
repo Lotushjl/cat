@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, MainTabActivity!</string>
+    <string name="app_name">Cat</string>
+    
+    <string name="page">N</string>
+    
+    <string name="classifyspi">活 动</string>
+    <string name="sortkey">排 序</string>
+    <string name="screenkey">筛 选</string>
+    
+    <string name="main_news">消息</string>
+    <string name="main_home">首页</string>
+    <string name="more">更多</string>
+    <string name="main_manage_date">时间</string>
+    <string name="main_friends">好友</string>
+    
+    <string name="name11111">世界喵日</string>
+    <string name="data11111">时间：2月22日  地点：世界</string>
+    <string name="when11111">时间：2月22日</string>
+    <string name="where11111">地点：世界</string>
+    <string name="store11111">222 收藏</string>
+    <string name="good11111">111 喜欢</string>
+    <string name="comc11111">333 评论</string>
+    <string name="weiboc11111">44  分享</string>
+    <string name="intro11111">简介：这是一个神圣的活动！象征着的猫类进军地球的开始！</string>
+    <string name="content11111">XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</string>
+    
+</resources>
